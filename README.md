@@ -1,14 +1,14 @@
-![Frontend Mentor Design](/design/desktop-design.jpg)
+![Frontend Mentor Design](./design/desktop-preview.jpg)
 
-<h1 align="center">Country Info Application</h1>
+<h1 align="center">🌍 Country Info Application</h1>
 
 <hr>
 
 🌐 [View the live site](https://spirit-101.github.io/country-info-app/)
 
-🧠 [Check out the solution](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+🧠 [Check out the solution](https://www.frontendmentor.io/solutions/rest-countries-api-application-SoA2S7EIqd)
 
-📝 [View the challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+📝 [View the challenge](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
 ---
 
