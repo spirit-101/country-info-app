@@ -19,9 +19,9 @@ function renderHTML(countryArr) {
     const html = `
         <div class="country__card" data-country="${country.name.common}">
         <div class="country__card-img-box">
-          <img class="country__card-img alt="${country.name.common}" src="${
-      country.flags.svg
-    }" />
+          <img class="country__card-img alt="" aria-hidden="true" src="${
+            country.flags.svg
+          }" />
         </div>
 
         <div class="country__card-info">
