@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- 
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    /> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | REST Countries API</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading__primary">Where in the world?</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="container__main">
+          <div class="search__container">
+            <div class="search__box">
+              <ion-icon class="search__box-icon" name="search"></ion-icon>
+              <input
+                class="search__input"
+                type="text"
+                placeholder="Search for a country..."
+                required
+              />
+            </div>
+
+            <select class="search__filter">
+              <option
+                class="search__filter-default"
+                value="all"
+                disabled
+                selected
+              >
+                Filter by Region
+              </option>
+              <option value="Africa">Africa</option>
+              <option value="Americas">Americas</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+            </select>
+          </div>
+
+          <div class="country__container"></div>
+        </div>
+
+        <div class="container__secondary">
+          <button class="info__country-box-btn">
+            <ion-icon name="arrow-back"></ion-icon>
+            <p>Back</p>
+          </button>
+
+          <div class="container__country-info">
+            <div class="info__img-box">
+              <img src="ca.png" alt="" />
+            </div>
+
+            <div class="info__country-box">
+              <h3 class="heading__tertiary">Canada</h3>
+
+              <div class="info__country-box-info">
+                <ul class="info__country-box-list">
+                  <li class="info__country-box-item">
+                    <strong>Native Name: </strong>Belgie
+                  </li>
+                  <li class="info__country-box-item">
+                    <strong>Population: </strong> 11,319,511
+                  </li>
+                  <li class="info__country-box-item">
+                    <strong>Region: </strong> Europe
+                  </li>
+                  <li class="info__country-box-item">
+                    <strong>Sub Region: </strong> Europe
+                  </li>
+                  <li class="info__country-box-item">
+                    <strong>Capital: </strong> Brussels
+                  </li>
+                </ul>
+
+                <ul class="info__country-box-list">
+                  <li class="info__country-box-item">
+                    <strong>Top Level Domain: </strong>.be
+                  </li>
+                  <li class="info__country-box-item">
+                    <strong>Currencies: </strong>Euro
+                  </li>
+                  <li class="info__country-box-item">
+                    <strong>Languages: </strong>Dutch, French, German
+                  </li>
+                </ul>
+              </div>
+
+              <div class="info__country-box-borders">
+                <span><strong>Border Countries:</strong></span>
+
+                <div class="info__country-box-borders-countries">
+                  <p>France</p>
+                  <p>Germany</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
